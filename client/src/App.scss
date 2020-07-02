@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  a {
+    text-decoration: none;
+    img {
+      width: 25px;
+      margin-left: 1em;
+    }
+    span {
+      color: rgb(37, 37, 37);
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    div:nth-last-child(-n + 3) {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      color: rgb(37, 37, 37);
+    }
+  }
+}
