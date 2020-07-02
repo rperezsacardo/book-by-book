@@ -5,19 +5,19 @@ function Footer() {
     <footer>
       <div>
         <h4>About</h4>
-        <a href="/">
+        <a href="/we">
           <span>Who we are</span>
         </a>
-        <a href="/">
+        <a href="/we">
           <span>Work with us</span>
         </a>
       </div>
       <div>
         <h4>Help</h4>
-        <a href="/">
+        <a href="/we">
           <span>FAQ</span>
         </a>
-        <a href="/">
+        <a href="/we">
           <span>Privacy</span>
         </a>
       </div>

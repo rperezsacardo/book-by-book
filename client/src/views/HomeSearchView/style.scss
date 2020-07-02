@@ -1,0 +1,13 @@
+.homeview {
+  background-image: url(/images/homepage.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 3em;
+  body {
+    width: 690px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 2em;
+    display: flex;
+  }
+}

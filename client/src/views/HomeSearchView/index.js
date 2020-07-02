@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.scss';
 
 function HomeSearchView() {
   return (
-    <div>
-      <span>testing homeview</span>
+    <div className="homeview">
+      <body></body>
     </div>
   );
 }
