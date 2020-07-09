@@ -1,0 +1,23 @@
+POST  http://localhost:3010/api/authentication/sign-up
+Content-Type: application/json
+
+{
+  "name": "Rdo",
+   "email": "a@b.com",
+   "password": "1234567",
+   "repeat_password": "1234567"
+}
+
+###
+
+GET  http://localhost:3010/
+
+###
+
+POST  http://localhost:3010/api/authentication/sign-in
+Content-Type: application/json
+HEAD 
+{
+   "email": "a@b.com",
+   "password": "1234567",
+}

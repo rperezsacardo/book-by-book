@@ -9,6 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "bcryptjs": "^2.4.3",
     "connect-mongo": "^3.1.2",
     "cookie-parser": "^1.4.4",
@@ -17,6 +18,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "http-errors": "^1.7.3",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.13",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
